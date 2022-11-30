@@ -21,6 +21,8 @@ $banner_styles = [
 
 $banner = implode(";", $banner_styles);
 
+$repository = "https://github.com/doulovera/php-course";
+
 ?>
 
 <!DOCTYPE html>
@@ -52,7 +54,7 @@ $banner = implode(";", $banner_styles);
 
   <?php
     echo <<<EOL
-      <a class="banner" style="$banner" href="#">
+      <a class="banner" style="$banner" href="$repository">
         Repositorio
       </a>
     EOL;
